@@ -9,5 +9,9 @@ description = "SCAP file analyzer tool to investigate captures files"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "mcp"
+    "requests",
+    "mcp",
+    "otx",
+    "python-dateutil"
 ]
+
