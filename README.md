@@ -1,5 +1,7 @@
 # SCAPalyzer-MCP
 
+[![smithery badge](https://smithery.ai/badge/@darryk10/scapalyzer-mcp)](https://smithery.ai/server/@darryk10/scapalyzer-mcp)
+
 ## Overview
 
 **SCAPalyzer-MCP** is a Model Context Protocol (MCP) server for automated behavioral analysis of Sysdig capture (SCAP) files. It integrates threat intelligence from VirusTotal and OTX, and exposes a suite of tools for extracting, analyzing, and interpreting security-relevant events from system captures. The server is designed for security analysts, incident responders, and researchers who need to automate the detection of suspicious or malicious activity in system traces.
@@ -31,6 +33,14 @@
 ---
 
 ## Installation
+
+### Installing via Smithery
+
+To install SCAPalyzer for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@darryk10/scapalyzer-mcp):
+
+```bash
+npx -y @smithery/cli install @darryk10/scapalyzer-mcp --client claude
+```
 
 1. **Clone the repository:**
    ```bash
